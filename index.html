@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🧠 Quiz Game</h1>
+        
+        <div id="quiz-container">
+            <p id="question-text"></p>
+            <div id="options-container"></div>
+            <button id="next-btn">Next</button>
+        </div>
+
+        <div id="score-container" style="display: none;">
+            <h2>Your Score: <span id="final-score"></span></h2>
+            <button onclick="restartQuiz()">Restart</button>
+        </div>
+
+        <div id="add-question-container">
+            <h3>Add Your Own Question</h3>
+            <input type="text" id="new-question" placeholder="Enter question">
+            <input type="text" id="option1" placeholder="Option 1">
+            <input type="text" id="option2" placeholder="Option 2">
+            <input type="text" id="option3" placeholder="Option 3">
+            <input type="text" id="option4" placeholder="Option 4">
+            <input type="number" id="correct-option" placeholder="Correct option (1-4)">
+            <button onclick="addQuestion()">Add Question</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
