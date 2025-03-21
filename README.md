@@ -18,6 +18,22 @@ Start the quiz and answer the questions presented.
 After completing the quiz, view your score.
 You can restart the quiz or add your own custom questions using the provided form.
 
+# DEMO HOW TO USE :
+
+
+
+
+
+https://github.com/user-attachments/assets/c55dca05-7089-454b-a33f-56c0f475a3c0
+
+# How to add new questions :
+-> Click on add question.
+-> Add the question.
+-> Add the options.
+-> Now enter the correct option in the field provided.
+-> click on enter.
+ Now your question is added to your quiz.
+
 # Files :
 -> index.html: The structure and content of the quiz app, including the HTML for the game and the form for adding new questions.
 -> style.css: The styles that give the app a modern and user-friendly interface, including the background gradient, button styles, and form inputs.
